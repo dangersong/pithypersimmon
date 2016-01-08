@@ -4,6 +4,7 @@ angular.module('foodbnb', [
   'foodbnb.host',
   'foodbnb.splash',
   'foodbnb.auth',
+  'foodbnb.services',
   'ngRoute'
 ])
 .config(function ($routeProvider) {
